@@ -1,11 +1,44 @@
-nav{}
-header{}
-body{}
-#content{  
+@standard=5em;
+html {
   background-color: black;
-  height: 80%; width: 80%;
-  -moz-border-radius: 25px 10px / 10px 25px;
-  border-radius: 25px 10px / 10px 25px;
 }
-footer{}
+nav{}
+header{
+  margin: 0 auto;
+  width: 60%;
+  overflow: hidden;
+}
+  header img{
+    float: left;
+    height: 6em;
+    padding: 1em 0em 1em 0em;
+  }
+  header pre{
+    color: #00d723;
+    float: left;
+    width: 50%;
+    padding: 1em;
+  }
+body{  
+  color: white;
+  background-color: black;
+}
+
+#content{
+  margin: 0 auto;
+  background-color: #3a3a3a;
+  height: 60%; width: 60%;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+div.splashPage{
+  text-align: center;
+  color: white;
+  width: 90%;
+  margin: 2em;
+} 
+ 
+footer{
+  text-align: center;
+}
 
