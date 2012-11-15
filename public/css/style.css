@@ -31,11 +31,11 @@ body{
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-div.splashPage{
+#content div.splashPage{
   text-align: center;
   color: white;
   width: 90%;
-  margin: 2em;
+  padding: 2em;
 } 
  
 footer{
